@@ -1,0 +1,9 @@
+.Subtitle {
+    color: white;
+    font-size: 120%;
+    text-shadow: 2px 2px 4px black;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    font-weight: bold;
+}
