@@ -1,9 +1,18 @@
 import React, { Component } from "react";
 
+import Heading from "../../components/Heading";
+
 class About extends Component {
     render () {
         return (
-            <h1>About page</h1>
+            <React.Fragment>
+                <Heading>
+                    Welcome to Big Bang Boxing in Bundang, South Korea.
+                </Heading>
+                <Heading>
+                    Canadian Owned and operated!
+                </Heading>
+            </React.Fragment>
         )
     }
 };
