@@ -1,8 +1,10 @@
 import React from "react";
 
+import Navbar from "../../components/Navigation/Navbar";
+
 const layout = ( props ) => (
     <React.Fragment>
-        <p>Home, About, Gallery, Contact and Location</p>
+        <Navbar />
         <main>
             {props.children}
         </main>
