@@ -1,0 +1,9 @@
+.Quote {
+    padding: 0;
+    margin: 0;
+    text-shadow: 2px 2px 4px black;
+    font-size: 1.3em;
+    display: inline;
+    line-height: 1.6;
+    color: white;
+}
