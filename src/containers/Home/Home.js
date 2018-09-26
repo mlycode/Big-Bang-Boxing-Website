@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 
+import Title from "../../components/Title";
+
 class Home extends Component {
     render () {
         return (
-            <h1>Home page</h1>
+            <Title>Big Bang Boxing</Title>
         )
     }
 };
