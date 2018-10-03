@@ -20,6 +20,9 @@ class About extends Component {
                 <Quote 
                 quoteBody="Anyone can learn how to box. It's the best physical exercise that there is. People want to have fun while working out! they want to train martial arts! They want to get in better shape! Here, we do all of these things!"
                 quoteName="Coach Joe"/>
+                <Body 
+                paragraphOne="Coach Colin Joe Pineault has amassed an astounding undefeated record of 6 wins and 0 losses. His boxing ventures have taken him from cold Canada all the way to beautiful Korea!"
+                paragraphTwo="Coach Joe has been boxing since 2008. After opening his own boxing gym in a foreign country, he focuses on bridging the gap between foreigners and Koreans through the art of boxing!"/>
             </div>
         )
     }
