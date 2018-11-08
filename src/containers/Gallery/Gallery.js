@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 
+import Heading from "../../components/Heading";
+
 class Gallery extends Component {
     render () {
         return (
-            <h1>Gallery page</h1>
+            <Heading>Our Members Having Fun and Winning Tournaments!</Heading>
         )
     }
 };

@@ -1,9 +1,17 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
+
+import Heading from "../../components/Heading";
+import Subtitle from "../../components/Subtitle";
+
+import { contactText } from "../../assets/text/text";
 
 class Contact extends Component {
     render () {
         return (
-            <h1>Contact page</h1>
+            <Fragment>
+                <Heading>Contact Us</Heading>
+                <Subtitle>{ contactText }</Subtitle>
+            </Fragment>
         )
     }
 };
