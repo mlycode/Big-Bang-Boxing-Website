@@ -19,9 +19,13 @@ class About extends Component {
                 <Paragraph
                     paragraphs={welcomeText}
                 />
+                <Heading>
+                    A Message from the Head Coach and Owner
+                </Heading>
                 <Quote 
-                quoteBody="Anyone can learn how to box. It's the best physical exercise that there is. People want to have fun while working out! they want to train martial arts! They want to get in better shape! Here, we do all of these things!"
-                quoteName="Coach Joe"/>
+                    quoteBody="Anyone can learn how to box. It's the best physical exercise that there is. People want to have fun while working out! they want to train martial arts! They want to get in better shape! Here, we do all of these things!"
+                    quoteName="Coach Joe"
+                />
                 <Paragraph 
                     paragraphs={coachMessageText}
                 />
