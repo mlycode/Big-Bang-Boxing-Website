@@ -6,7 +6,7 @@ import "./NavigationItems.css";
 const navigationItems = (props) => (
     <ul className="NavigationItems">
         <NavigationItem link="/">Home</NavigationItem>
-        <NavigationItem link="/about">About</NavigationItem>
+        <NavigationItem link="/classes">Classes</NavigationItem>
         <NavigationItem link="/gallery">Gallery</NavigationItem>
         <NavigationItem link="/contact">Contact</NavigationItem>
         <NavigationItem link="/location">Location</NavigationItem>

@@ -1,14 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-import Navbar from "../../components/Navigation/Navbar";
+// import Navbar from "../../components/Navigation/Navbar";
+import Navbar from "../../components/BSNavbar";
 
 const layout = ( props ) => (
-    <React.Fragment>
+    <Fragment>
         <Navbar />
         <main>
             {props.children}
         </main>
-    </React.Fragment>
+    </Fragment>
 );
 
 export default layout;
