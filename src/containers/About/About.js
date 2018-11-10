@@ -5,6 +5,7 @@ import Quote from "../../components/Quote";
 import Paragraph from "../../components/Paragraph";
 
 import { welcomeText, coachMessageText } from "../../assets/text/text";
+import img9 from "../../assets/images/gallerySlider/gallery9.jpg";
 
 class About extends Component {
     render () {
@@ -22,6 +23,7 @@ class About extends Component {
                 <Heading>
                     A Message from the Head Coach and Owner
                 </Heading>
+                <img src={img9}/>
                 <Quote 
                     quoteBody="Anyone can learn how to box. It's the best physical exercise that there is. People want to have fun while working out! they want to train martial arts! They want to get in better shape! Here, we do all of these things!"
                     quoteName="Coach Joe"
