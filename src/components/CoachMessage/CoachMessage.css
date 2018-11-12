@@ -1,0 +1,15 @@
+.coachMessageContainer {
+    margin: 20px 0;
+}
+
+.coachMessageImage {
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 100%;
+    position: relative;
+    max-width: 100%;
+    display: block;
+}

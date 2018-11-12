@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Heading from "../../components/Heading";
-import Quote from "../../components/Quote";
+
 import Paragraph from "../../components/Paragraph";
 
 import { welcomeText, coachMessageText } from "../../assets/text/text";
@@ -24,10 +24,7 @@ class About extends Component {
                     A Message from the Head Coach and Owner
                 </Heading>
                 <img src={img9} alt="Head Coach"/>
-                <Quote 
-                    quoteBody="Anyone can learn how to box. It's the best physical exercise that there is. People want to have fun while working out! they want to train martial arts! They want to get in better shape! Here, we do all of these things!"
-                    quoteName="Coach Joe"
-                />
+               
                 <Paragraph 
                     paragraphs={coachMessageText}
                 />
