@@ -1,0 +1,17 @@
+.homePageHeader {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.homePageLargeLogo {
+    display: block;
+    max-width: 100%;
+    height: 450px;
+    margin: auto;
+}
+
+.homePageHeaderContent {
+    display: block;
+    margin: 0 auto;
+}

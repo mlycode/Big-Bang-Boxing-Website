@@ -1,8 +1,6 @@
 .Title {
     text-shadow: 2px 2px 4px black;
-    color: white;
-    font-size: 400%;
-    padding-top: 50px;
-    margin: 0;
+    color: #cccccc;
+    font-size: 350%;
     line-height: 1.6;
 }

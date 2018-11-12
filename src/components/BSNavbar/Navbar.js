@@ -1,8 +1,11 @@
 import React from "react";
 import { Navbar, Nav, NavItem} from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
+
+import "./Navbar.css";
 
 const NavigationBar = (props) => (
-    <Navbar inverse collapseOnSelect fixedTop>
+    <Navbar collapseOnSelect fixedTop>
   <Navbar.Header>
     <Navbar.Brand>
       <a href="/">Big Bang Boxing</a>
@@ -11,21 +14,21 @@ const NavigationBar = (props) => (
   </Navbar.Header>
   <Navbar.Collapse>
     <Nav pullRight>
-      <NavItem eventKey={1} href="/">
-        Home
-      </NavItem>
-      <NavItem eventKey={2} href="/classes">
-        Classes
-      </NavItem>
-      <NavItem eventKey={3} href="/gallery">
-        Gallery
-      </NavItem>
-      <NavItem eventKey={4} href="/contact">
-        Contact us
-      </NavItem>
-      <NavItem eventKey={5} href="/location">
-        Location
-      </NavItem>
+      <LinkContainer exact to="/">
+        <NavItem eventKey={1}>Home</NavItem>
+      </LinkContainer>
+      <LinkContainer to="/classes">
+        <NavItem eventKey={2}>Classes</NavItem>
+      </LinkContainer>
+      <LinkContainer to="/gallery">
+        <NavItem eventKey={3}>Gallery</NavItem>
+      </LinkContainer>
+      <LinkContainer to="/contact">
+        <NavItem eventKey={4}>Contact us</NavItem>
+      </LinkContainer>
+      <LinkContainer to="/location">
+        <NavItem eventKey={5}>Location</NavItem>
+      </LinkContainer>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

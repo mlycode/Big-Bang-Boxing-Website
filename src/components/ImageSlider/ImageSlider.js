@@ -19,7 +19,7 @@ export class ImageSlider extends Component {
             <Slider {...settings}>
                 {imgArr.map((img, i) => 
                 <div key={i} >
-                    <img src={img} alt="image"/>
+                    <img src={img} alt="gallery"/>
                 </div>
                 )}
             </Slider>
