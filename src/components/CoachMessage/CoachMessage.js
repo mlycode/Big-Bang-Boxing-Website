@@ -7,7 +7,6 @@ const CoachMessage = (props) => {
     const coachImage = {
         backgroundImage: "url(" + props.thumbnailImage + ")"
     };
-    console.log(typeof props.thumbnailImage)
     return(
         <Grid>
             <Row className="coachMessageContainer">

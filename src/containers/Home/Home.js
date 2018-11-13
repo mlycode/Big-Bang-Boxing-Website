@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 
-import Title from "../../components/Title";
-import Subtitle from "../../components/Subtitle";
 import logo from "../../assets/images/logobig.jpg";
 import Paragraph from "../../components/Paragraph";
 import Quote from "../../components/Quote";
@@ -9,7 +7,7 @@ import CoachMessage from "../../components/CoachMessage";
 import CardWithImage from "../../components/CardWithImage";
 import { welcomeText, coachMessageText } from "../../assets/text/text";
 import coachJoeImg from "../../assets/images/gallery9.jpg";
-import { Jumbotron, Grid, Col, Row } from "react-bootstrap";
+import { Grid, Col, Row } from "react-bootstrap";
 
 import "./Home.css"
 
@@ -36,22 +34,25 @@ class Home extends Component {
                         </Row>
                     </Grid>
                 </div>
-                <CardWithImage cardImage={coachJoeImg}>
-                    <h1>Our Coaches</h1>
-                </CardWithImage>
-                <CoachMessage thumbnailImage={coachJoeImg}>
-                    <h3>Coach Joe - Head Coach and Owner</h3>
-                    <Paragraph paragraphs={coachMessageText} />
-                </CoachMessage>
-                <CardWithImage cardImage={coachJoeImg} imageLeft>
-                    <Quote
-                        quoteBody="Anyone can learn how to box. It's the best physical exercise that there is. People want to have fun while working out! they want to train martial arts! They want to get in better shape! Here, we do all of these things!"
-                        quoteName="Coach Joe"
-                    />
-                </CardWithImage>
-                <CardWithImage cardImage={coachJoeImg}>
-                    <h1>What People Say About Us</h1>
-                </CardWithImage>
+                <Grid className="grid-content">
+                    <CardWithImage cardImage={coachJoeImg}>
+                        <h1>Our Coaches</h1>
+                    </CardWithImage>
+                    <CoachMessage thumbnailImage={coachJoeImg}>
+                        <h3>Coach Joe - Head Coach and Owner</h3>
+                        <Paragraph paragraphs={coachMessageText} />
+                    </CoachMessage>
+                    <CardWithImage cardImage={coachJoeImg} imageLeft>
+                        <Quote
+                            quoteBody="Anyone can learn how to box. It's the best physical exercise that there is. People want to have fun while working out! they want to train martial arts! They want to get in better shape! Here, we do all of these things!"
+                            quoteName="Coach Joe"
+                        />
+                    </CardWithImage>
+                    <CardWithImage cardImage={coachJoeImg}>
+                        <h1>What People Say About Us</h1>
+                    </CardWithImage>
+                </Grid>
+                
             </React.Fragment>
         )
     }
