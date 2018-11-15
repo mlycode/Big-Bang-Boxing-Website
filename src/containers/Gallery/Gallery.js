@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import { Grid, Row, Col } from "react-bootstrap";
 
 import Heading from "../../components/Heading";
 import ImageSlider from "../../components/ImageSlider";
@@ -20,8 +21,14 @@ class Gallery extends Component {
         const images = [img1, img2, img4, img5, img6, img7, img8, img9, img11, img12];
         return (
             <Fragment>
-                <Heading>Our Members Having Fun and Winning Tournaments!</Heading>
-                <ImageSlider imgArr = {images}/>
+                <Grid>
+                    <Heading>Our Members Having Fun and Winning Tournaments!</Heading>
+                    <Row>
+                        <Col xs={12}>
+                            <ImageSlider imgArr = {images}/>
+                        </Col>
+                    </Row>
+                </Grid>
             </Fragment>
         )
     }

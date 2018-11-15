@@ -1,28 +1,22 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
+import { Carousel } from "react-bootstrap";
 import PropTypes from "prop-types";
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "./ImageSlider.css";
 
 export class ImageSlider extends Component {
     render() {
-        const settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1
-        };
-        const {imgArr} = this.props;
+        const { imgArr } = this.props;
         return (
-            <Slider {...settings}>
-                {imgArr.map((img, i) => 
-                <div key={i} >
-                    <img src={img} alt="gallery"/>
-                </div>
-                )}
-            </Slider>
+            <div>
+                <Carousel>
+                    {imgArr.map((img, i) =>
+                        <Carousel.Item key={i}>
+                            <img width={900} height={500} alt="gallery" src={img} />
+                        </Carousel.Item>
+                    )}
+                </Carousel>
+            </div>
         );
     }
 }
