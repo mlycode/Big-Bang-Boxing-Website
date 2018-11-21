@@ -16,5 +16,6 @@ export const contactText = [
 ];
 
 export const locationText = [
+    "Address: 미금역 골드프라자 405호 Gyeonggi-do, Seongnam-si, Bundang-gu, Dolma-ro 87-0, Gold Plaza 405 Seongnam",
     "We are located right outside of Migeum Station. Exit 2. Walk straight until you see a KB Bank and then come into the building to floor 4!"
 ];
