@@ -1,20 +1,27 @@
 import React, { Component, Fragment } from "react";
 
-import Heading from "../../components/Heading";
-import Subtitle from "../../components/Subtitle";
+import { Grid, Col, Row } from "react-bootstrap";
+import TitleBGImage from "../../components/TitleBGImage";
+import Paragraph from "../../components/Paragraph";
+import CardWithImage from "../../components/CardWithImage";
 
 import { contactText } from "../../assets/text/text";
-import fbIcon from "../../assets/images/F_icon.svg";
+import img14 from "../../assets/images/gallerySlider/img14.jpg";
+import img24 from "../../assets/images/img24.jpg";
+
 
 class Contact extends Component {
-    render () {
+    render() {
         return (
             <Fragment>
-                <Heading>Contact Us</Heading>
-                <Subtitle>{ contactText }</Subtitle>
-                <a href="https://www.facebook.com/bigbangboxing/" target="blank">
-                <img src={fbIcon} alt="Our Facebook Page"/>
-                </a>
+                <TitleBGImage cardImage={img24}>
+                    CONTACT US
+               </TitleBGImage>
+                <Grid>
+                    <CardWithImage cardImage={img14}>
+                        <Paragraph paragraphs={contactText} />
+                    </CardWithImage>
+                </Grid>
             </Fragment>
         )
     }

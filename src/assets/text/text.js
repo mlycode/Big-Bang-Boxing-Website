@@ -9,7 +9,10 @@ export const coachMessageText = [
 ];
 
 export const contactText = [
-    "Like us and send us a message! Let's connect!"
+    "Opening Times",
+    "MON - FRI: 11:00 - 22:30",
+    "SAT - SUN: CLOSED",
+    "Telephone: +82 31-717-7654",
 ];
 
 export const locationText = [
