@@ -9,10 +9,10 @@ export class ImageSlider extends Component {
         const { imgArr } = this.props;
         return (
             <div>
-                <Carousel>
+                <Carousel indicators={false}>
                     {imgArr.map((img, i) =>
                         <Carousel.Item key={i}>
-                            <img width={900} height={500} alt="gallery" src={img} />
+                            <img width={900} height={700} alt="gallery" src={img} />
                         </Carousel.Item>
                     )}
                 </Carousel>

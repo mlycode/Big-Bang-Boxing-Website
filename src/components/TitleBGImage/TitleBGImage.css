@@ -18,7 +18,7 @@
     text-align: center;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .title-bg-container {
         height: 200px;
     }
