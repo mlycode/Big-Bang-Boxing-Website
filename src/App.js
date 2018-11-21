@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     const routes = (
       <Switch>
-        <Route path="/classes" component={About} />
+        <Route path="/about" component={About} />
         <Route path="/gallery" component={Gallery} />
         <Route path="/contact" component={Contact} />
         <Route path="/location" component={Loc} />

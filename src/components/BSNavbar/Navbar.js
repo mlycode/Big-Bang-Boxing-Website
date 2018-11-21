@@ -17,8 +17,8 @@ const NavigationBar = (props) => (
       <LinkContainer exact to="/">
         <NavItem eventKey={1}>Home</NavItem>
       </LinkContainer>
-      <LinkContainer to="/classes">
-        <NavItem eventKey={2}>Classes</NavItem>
+      <LinkContainer to="/about">
+        <NavItem eventKey={2}>About us</NavItem>
       </LinkContainer>
       <LinkContainer to="/gallery">
         <NavItem eventKey={3}>Gallery</NavItem>
