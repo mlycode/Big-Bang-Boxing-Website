@@ -1,0 +1,29 @@
+.title-bg-container {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+    margin: 50px 0;
+    box-shadow: 0px 0px 200px 5px rgba(0,0,0,1) inset;
+    -webkit-box-shadow: 0px 0px 200px 5px rgba(0,0,0,1) inset;
+    -moz-box-shadow: 0px 0px 200px 5px rgba(0,0,0,1) inset;
+}
+
+.title-bg-container h1 {
+    font-size: 5em;
+    text-shadow: 2px 2px 3px black;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    .title-bg-container {
+        height: 200px;
+    }
+
+    .title-bg-container h1 {
+        font-size: 40px;
+    }
+}
