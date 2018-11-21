@@ -20,6 +20,7 @@ class Contact extends Component {
                 <Grid>
                     <CardWithImage cardImage={img14}>
                         <Paragraph paragraphs={contactText} />
+                        <p>Message us on Facebook: <a href="https://www.facebook.com/bigbangboxing/" target="blank">facebook.com/bigbangboxing</a></p>
                     </CardWithImage>
                 </Grid>
             </Fragment>
