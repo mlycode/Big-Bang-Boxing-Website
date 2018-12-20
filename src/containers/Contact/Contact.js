@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 
-import { Grid, Col, Row } from "react-bootstrap";
+import { Grid } from "react-bootstrap";
 import TitleBGImage from "../../components/TitleBGImage";
 import Paragraph from "../../components/Paragraph";
 import CardWithImage from "../../components/CardWithImage";

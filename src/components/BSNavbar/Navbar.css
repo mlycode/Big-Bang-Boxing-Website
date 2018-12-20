@@ -14,3 +14,12 @@
 .navbar-brand {
     padding: 0;
 }
+
+.navbar-default {
+    background-image: none;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #0072ff;
+}
